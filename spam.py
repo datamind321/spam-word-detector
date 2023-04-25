@@ -6,7 +6,7 @@ import streamlit as st
 model = pickle.load(open('spam.pkl', 'rb'))
 cv = pickle.load(open('vectorized.pkl', 'rb'))
 
-def speak()
+
 
 def main():
     st.title("Email Spam Classification Application")
